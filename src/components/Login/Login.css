@@ -6,7 +6,8 @@
 }
 
 .login > img {
-    width: 100%;
+    width: 45%;
+    margin-top: 7%;
 }
 
 .login > a {
@@ -16,4 +17,22 @@
     font-weight: 800;
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .login > a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login > a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .login > a {
+        font-size: 10px;
+    }
 }
