@@ -7,6 +7,12 @@
     transition: 200ms color ease-in;
 }
 
+.sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
 .sidebarOption:hover {
     color:white;
 }
@@ -14,4 +20,10 @@
 .sidebarOption-icon{ 
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.sidebarOption > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
 }
