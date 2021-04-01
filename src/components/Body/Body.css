@@ -1,33 +1,66 @@
 .body {
-    flex: 0.8;
-    height: 100vh;
-    color: white;
-    background: linear-gradient( rgb(91, 87, 115), rgba(0, 0, 0, 1));
     padding: 30px;
-
-}
-
-.body-info {
+    width: 100%;
+    height: 100vh;
+    overflow-y: overlay;
+    flex: 0.8;
+    color: white;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    background-color: rgb(91, 87, 115);
+    overflow-y: overlay;
+  }
+  
+  .body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .body-info {
     display: flex;
     align-items: flex-end;
     padding: 10px;
-}
-
-.body-infoText {
-    flex:1;
-}
-
-.body-info >img {
+  }
+  
+  .body-shuffle {
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .body-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .body-icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+  }
+  
+  .body-shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+  }
+  
+  .body-songs {
+    z-index: 1;
+    margin: 20px -30px;
+  }
+  
+  .body-info > img {
     height: 20vw;
-    margin: 0 20px; 
+    margin: 0 20px;
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
-}
-
-.body-infoText > h2 {
+  }
+  
+  .body-infoText {
+    flex: 1;
+  }
+  
+  .body-infoText > h2 {
     font-size: 48px;
     margin-bottom: 10px;
-}
-
-.body-infoText > p {
+  }
+  
+  .body-infoText > p {
     font-size: 14px;
-}
+  }

@@ -37,7 +37,7 @@ function App() {
         });
       });
 
-      spotify.getPlaylist("37i9dQZEVXcFxpvaCrEue8").then((response) =>
+      spotify.getPlaylist("37i9dQZF1DWVUDGkrVGXH9").then((response) =>
         dispatch({
           type: "SET_DISCOVER_WEEKLY",
           discover_weekly: response,
