@@ -8,7 +8,7 @@ const clientId = "9702342b758a4fa0a6b7a00ea4e553ce";
 // redirect to spotify login page
 // redirect to home page once authorized
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotify-clone-v2.web.app/";
 
 const scopes = [
   "user-read-currently-playing",
